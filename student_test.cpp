@@ -194,6 +194,19 @@ TEST(GradeTest, Grade_C) {
 } 
 
  
+TEST(GradeTest, Grade_D) { 
+
+    Student s("Nadia", 20); 
+
+    s.addMarks(67); 
+
+    s.addMarks(72); 
+
+    s.addMarks(70); 
+
+    EXPECT_EQ(s.grade(), 'D'); // grade D test 
+
+} 
 
 
  
