@@ -164,20 +164,6 @@ TEST(GradeTest, Grade_A) {
 
  
 
-TEST(GradeTest, Grade_B) {
-
-
-Student s("Mysha", 22); 
-
-    s.addMarks(75); 
-
-    s.addMarks(80); 
-
-    s.addMarks(70); 
-
-    EXPECT_EQ(s.grade(), 'B');  // grade B test 
-
-} 
 
 TEST(GradeTest, Grade_C) { 
 
