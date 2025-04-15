@@ -165,7 +165,7 @@ TEST(GradeTest, Grade_A) {
  
 
 
-TEST(GradeTest, Grade_C) { 
+TEST(GradeTest, Grade_P) { 
 
     Student s("Ali", 23); 
 
